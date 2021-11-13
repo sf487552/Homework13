@@ -1,4 +1,5 @@
 // Import all the models
+const { Model, DataTypes } = require("sequelize");
 const User = require("./User");
 const Post = require("./Post");
 const Comment = require("./Comment");
